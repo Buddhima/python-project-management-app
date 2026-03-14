@@ -1,6 +1,7 @@
 # Project Management API
 
-🚀 **Overview**
+## 🚀 Overview
+
 A robust Project Management API designed to simplify and automate the full project lifecycle. This API allows seamless management of clients, projects, and invoices, supporting business workflows such as billing, adjustments, reporting, and approval processes.
 
 ## 🛠️ Key Modules
