@@ -8,13 +8,13 @@ A robust Project Management API designed to simplify and automate the full proje
 
 - **Clients** – Manage client relationships, details, and associated projects.
 - **Projects** – Full CRUD support to manage project lifecycle per client.
-- **Invoices** – Automated invoice generation and tracking with support for multiple invoices per project. Handles draft, sent, and paid states, as well as adjustments and credits.
+- **Invoices** – Automated invoice generation and tracking with support for multiple invoices per project. Handles pending, sent, and paid states, as well as adjustments and credits.
 
 ## 🎯 Features
 
 - Manage clients and their projects.
 - Generate and manage invoices, including multiple invoices per project.
-- Support invoice states: Draft, Sent, Paid.
+- Support invoice states: Pending, Sent, Paid.
 - Apply adjustments or credits to invoices.
 - Approval workflow for invoices: staff create/manage, managers approve/report.
 - Pull financial reports on outstanding balances and billing history.
@@ -55,7 +55,7 @@ http://127.0.0.1:8000/redoc
 The API supports pulling reports on:
 - Outstanding balances per client or project.
 - Billing history across selected periods.
-- Status of invoices (draft, sent, paid) including adjustments and credits applied.
+- Status of invoices (pending, sent, paid) including adjustments and credits applied.
 
 ## 📧 Contact
 
