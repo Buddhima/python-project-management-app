@@ -1,6 +1,4 @@
-fastapi
-uvicorn
+fastapi[standard]
 sqlalchemy
-pydantic
 python-jose
 passlib[argon2]
